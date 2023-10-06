@@ -1,0 +1,73 @@
+/* About Me section */
+#About {
+    margin-top: 200px;
+}
+
+#About .fa {
+    color: #d53f99;
+    font-size: 32px; /* Increase font size */
+}
+
+#About span {
+    padding: 10px 20px;
+    background: #000;
+    color: #386136;
+    font-size: 42px; /* Increase font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Change font family */
+}
+
+#About hr {
+    border: 3px solid #45e7a6;
+    margin-top: 6px;
+}
+
+/* Skills section */
+#Skills span {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #516d83;
+    font-size: 32px; /* Increase font size */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Change font family */
+}
+
+#Skills hr {
+    border: 3px solid #22ecec;
+    margin-top: 6px;
+}
+
+/* Experience section */
+#Experience span {
+    padding: 10px 20px;
+    background: #28A745;
+    color: #967308;
+    font-size: 32px; /* Increase font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+}
+
+#Experience hr {
+    border: 3px solid #1b3a69;
+    margin-top: 6px;
+}
+
+#Experience .card {
+    border-top: 3px solid red;
+}
+
+/* Contact section */
+#Contact span {
+    padding: 10px 20px;
+    background: #000;
+    color: #532c79;
+    font-size: 32px; /* Increase font size */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Change font family */
+}
+
+#Contact hr {
+    border: 3px solid #802b88;
+    margin-top: 6px;
+}
+
+/* Footer */
+.container-fluid.bg-dark {
+    background: #000;
+}

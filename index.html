@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Showcase</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Add your custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Background image for the section up to About Me */
+        body:before {
+            content: "";
+            background-image: url('https://c1.wallpaperflare.com/preview/652/531/737/wood-aerial-background-beverage.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+  
+<!-- About Me -->
+<div id="About" class="container mt-5">
+    <span class="bg-danger text-white">About Me</span>
+    <hr class="bg-danger">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="AboutData" class="card bg-white p-3">
+                <div class="media">
+                    <img src="dj pic.jpg" width="250" height="250" class="img-fluid rounded-top mx-auto d-block">
+                </div>
+                <div class="text-center">
+                    <h3 class="display-4 mt-3">Deekshith J</h3>
+                    <p class="text-muted">Computer Science Engineer | Bengaluru</p>
+                </div>
+                <div class="container">
+                    <table class="table table-responsive ml-4">
+                        <tr>
+                            <td class="text-muted">Email</td>
+                            <td>:</td>
+                            <td>deekshithj1021@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td class="text-muted">Phone</td>
+                            <td>:</td>
+                            <td>8660373155</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-footer bg-danger text-center">
+                    <a href="#"><i class="fa fa-linkedin fa-2x mx-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- Add your additional "About Me" content here -->
+            <p class="card bg-white p-5"class="lead text-justify">
+                I am a Computer Science student based in Bengaluru, India, with a strong passion for technology and innovation. I am currently pursuing my Bachelor of Engineering in Computer Science from Dr. Ambedkar Institute Of Technology, where I have maintained a commendable CGPA of 8.8, reflecting my dedication to academic excellence.
+                <br><br>
+                My educational journey has been marked by consistent achievements. I completed my Pre-University (State Board) in Science (PCMB) from Presidency PU College with a remarkable percentage of 91.67%. Prior to that, I successfully completed my ICSE Board 10th from The Presidency Public School, securing an impressive percentage of 90.80%.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Skills -->
+    <div id="Skills" class="mt-5">
+        <div class="container">
+            <span class="bg-primary text-white">My Skills</span>
+            <hr class="bg-primary">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-white p-3">
+                        <h3 class="ml-3 my-3">Programming Languages</h3>
+                        <p class="lead ml-3">
+                            C, C++, HTML/CSS, Javascript, Python, SQL, Java
+                        </p>
+                        <h3 class="ml-3 my-3">Libraries/Frameworks</h3>
+                        <p class="lead ml-3">
+                            Reactjs, Express
+                        </p>
+                        <h3 class="ml-3 my-3">Tools / Platforms</h3>
+                        <p class="lead ml-3">
+                            VsCode, Jupyter Notebook, Nodejs, Eclipse, Energia, Arduino Ide
+                        </p>
+                        <h3 class="ml-3 my-3">Databases</h3>
+                        <p class="lead ml-3">
+                            Mongo DB, Oracle, MySQL
+                        </p>
+                        <h3 class="ml-3 my-3">Other Skills</h3>
+                        <p class="lead ml-3">
+                            Problem Solving, Leadership, Group Discussions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="Experience" class="container mt-5">
+        <span class="bg-success text-white">Experience</span>
+        <hr class="bg-success">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card bg-white p-3">
+                    <h3 class="text-center text-danger">Event Management System</h3>
+                    <p class="lead text-justify p-3">
+                        Designed and developed a cutting-edge Event Management System using the dynamic duo of PHP and MySQL, revolutionizing event registration, venue booking, and planning processes, enabling seamless orchestration of unforgettable experiences for event organizers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card bg-white p-3">
+                    <h3 class="text-center text-danger">E-Voting Machine Using IoT</h3>
+                    <p class="lead text-justify p-3">
+                        Designed and implemented a state-of-the-art E-Voting Machine leveraging IoT technology, facial recognition, and a fusion of Arduino and Python. Transformed the traditional voting process into a secure, efficient, and accessible system, fostering higher voter participation and engagement.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <div class="card bg-white p-3">
+                    <h3 class="text-center text-danger">Train Traffic Management</h3>
+                    <p class="lead text-justify p-3">
+                        Engineered an innovative Automated Railway Gate Control System utilizing IoT technology to enhance safety and efficiency in railway operations. Successfully designed, developed, and implemented a robust solution that seamlessly integrates real-time data and automation, ensuring the safe passage of trains and vehicles at railway crossings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact" class="container mt-5">
+        <span class="bg-dark text-white">Contact me</span>
+        <hr class="bg-dark">
+        <div class="row">
+            <div class="col">
+                <div class="card bg-white p-5">
+                    <div class="card-header">
+                        <h4 class="my-4">Contact Me Below</h4>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Write something here..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-success text-white">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col">
+                <p class="text-white pt-3 text-center">Website designed by Deekshith</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS (required for scrolling to sections) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
